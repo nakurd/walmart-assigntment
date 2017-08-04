@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TicketServiceWalmartImplSpec" project="ticket-service" tests="1" started="1" failures="1" errors="0" ignored="0">
+  <testsuite name="com.walmart.service.TicketServiceWalmartImplSpec" time="0.225">
+    <testcase name="test that venue is initalized correctly" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.225">
+      <failure>
+        <expected>3.3333333333
+</expected>
+        <actual>5
+</actual>Condition not satisfied:
+
+objectUnderTest.walmart.getMiddleSeat() == objectUnderTest.walmart.getSeatsPerRow()/3
+|               |       |               |  |               |       |               |
+|               |       5               |  |               |       10              3.3333333333
+|               |                       |  |               Venu [name=Walmart, numberOfRows=3, seatsPerRow=10, holdTime=3, requestLimit=4]
+|               |                       |  com.walmart.servcie.TicketServiceWalmartImpl@10e41621
+|               |                       false
+|               Venu [name=Walmart, numberOfRows=3, seatsPerRow=10, holdTime=3, requestLimit=4]
+com.walmart.servcie.TicketServiceWalmartImpl@10e41621
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test that venue is initalized correctly(TicketServiceWalmartImplSpec.groovy:23)&#13;
+&#13;
+</failure>
+    </testcase>
+  </testsuite>
+</testrun>

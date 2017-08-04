@@ -1,0 +1,27 @@
+package com.walmart.service
+
+import com.walmart.servcie.TicketServiceWalmartImpl
+import spock.lang.Shared
+import spock.lang.Specification
+import spock.lang.Unroll
+
+class TicketServiceWalmartImplSpec extends Specification{
+	 
+	@Shared
+	private TicketServiceWalmartImpl objectUnderTest = new TicketServiceWalmartImpl();
+	
+	public void setupSpec(){
+		objectUnderTest = new TicketServiceWalmartImpl();
+	}
+	
+	@Unroll
+	public void "test that venue is initalized correctly"(){
+		expect:
+			objectUnderTest != null
+			objectUnderTest.pendingReservations.size() == 0
+			objectUnderTest.seats.size() == objectUnderTest.walmart.getNumberOfRows() * objectUnderTest.walmart.getSeatsPerRow()
+			objectUnderTest.walmart.getMiddleSeat() == objectUnderTest.walmart.getSeatsPerRow()/2
+			objectUnderTest.numSeatsAvailable() == objectUnderTest.seats.size()
+	}
+	
+}

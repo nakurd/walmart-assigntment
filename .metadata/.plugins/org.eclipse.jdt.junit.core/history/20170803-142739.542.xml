@@ -1,0 +1,1598 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TicketServiceWalmartImplSpec" project="ticket-service" tests="1" started="101" failures="99" errors="1" ignored="0">
+  <testsuite name="com.walmart.service.TicketServiceWalmartImplSpec" time="0.084">
+    <testcase name="test that venue is initalized correctly" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.084"/>
+  </testsuite>
+  <testsuite name="Unrooted Tests" time="0.114">
+    <testcase name="Row Num: 0 Seat Num: 0 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 21" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.114">
+      <failure>
+        <expected>21
+</expected>
+        <actual>0
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               0        0      0       5             10                   |  21
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 1 Seat Num: 1 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 22" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.002">
+      <failure>
+        <expected>22
+</expected>
+        <actual>3
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               3        1      1       5             10                   |  22
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 2 Seat Num: 2 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 23" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.002">
+      <failure>
+        <expected>23
+</expected>
+        <actual>6
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               6        2      2       5             10                   |  23
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 3 Seat Num: 3 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 24" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.002">
+      <failure>
+        <expected>24
+</expected>
+        <actual>9
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               9        3      3       5             10                   |  24
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 4 Seat Num: 4 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 25" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.002">
+      <failure>
+        <expected>25
+</expected>
+        <actual>12
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               12       4      4       5             10                   |  25
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 5 Seat Num: 5 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 25" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.012">
+      <failure>
+        <expected>25
+</expected>
+        <actual>15
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               15       5      5       5             10                   |  25
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 6 Seat Num: 6 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 24" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.002">
+      <failure>
+        <expected>24
+</expected>
+        <actual>17
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               17       6      6       5             10                   |  24
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 7 Seat Num: 7 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 23" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.0">
+      <failure>
+        <expected>23
+</expected>
+        <actual>18
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               18       7      7       5             10                   |  23
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 8 Seat Num: 8 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 22" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.0">
+      <failure>
+        <expected>22
+</expected>
+        <actual>19
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               19       8      8       5             10                   |  22
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 9 Seat Num: 9 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 21" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001">
+      <failure>
+        <expected>21
+</expected>
+        <actual>20
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               20       9      9       5             10                   |  21
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 10 Seat Num: 10 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 19" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.002">
+      <failure>
+        <expected>19
+</expected>
+        <actual>21
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               21       10     10      5             10                   |  19
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 1 Seat Num: 1 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 20" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.002">
+      <failure>
+        <expected>20
+</expected>
+        <actual>3
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               3        1      1       5             10                   |  20
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 2 Seat Num: 2 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 21" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.005">
+      <failure>
+        <expected>21
+</expected>
+        <actual>6
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               6        2      2       5             10                   |  21
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 3 Seat Num: 3 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 22" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.006">
+      <failure>
+        <expected>22
+</expected>
+        <actual>9
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               9        3      3       5             10                   |  22
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 4 Seat Num: 4 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 23" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.004">
+      <failure>
+        <expected>23
+</expected>
+        <actual>12
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               12       4      4       5             10                   |  23
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 5 Seat Num: 5 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 23" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.006">
+      <failure>
+        <expected>23
+</expected>
+        <actual>15
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               15       5      5       5             10                   |  23
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 6 Seat Num: 6 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 22" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.004">
+      <failure>
+        <expected>22
+</expected>
+        <actual>17
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               17       6      6       5             10                   |  22
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 7 Seat Num: 7 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 21" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.002">
+      <failure>
+        <expected>21
+</expected>
+        <actual>18
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               18       7      7       5             10                   |  21
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 8 Seat Num: 8 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 20" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001">
+      <failure>
+        <expected>20
+</expected>
+        <actual>19
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               19       8      8       5             10                   |  20
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 9 Seat Num: 9 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 19" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.002">
+      <failure>
+        <expected>19
+</expected>
+        <actual>20
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               20       9      9       5             10                   |  19
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 10 Seat Num: 10 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 17" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.002">
+      <failure>
+        <expected>17
+</expected>
+        <actual>21
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               21       10     10      5             10                   |  17
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 1 Seat Num: 1 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 18" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001">
+      <failure>
+        <expected>18
+</expected>
+        <actual>3
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               3        1      1       5             10                   |  18
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 2 Seat Num: 2 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 19" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001">
+      <failure>
+        <expected>19
+</expected>
+        <actual>6
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               6        2      2       5             10                   |  19
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 3 Seat Num: 3 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 20" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001">
+      <failure>
+        <expected>20
+</expected>
+        <actual>9
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               9        3      3       5             10                   |  20
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 4 Seat Num: 4 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 21" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.002">
+      <failure>
+        <expected>21
+</expected>
+        <actual>12
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               12       4      4       5             10                   |  21
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 5 Seat Num: 5 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 21" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001">
+      <failure>
+        <expected>21
+</expected>
+        <actual>15
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               15       5      5       5             10                   |  21
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 6 Seat Num: 6 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 20" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.002">
+      <failure>
+        <expected>20
+</expected>
+        <actual>17
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               17       6      6       5             10                   |  20
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 7 Seat Num: 7 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 19" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001">
+      <failure>
+        <expected>19
+</expected>
+        <actual>18
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               18       7      7       5             10                   |  19
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 8 Seat Num: 8 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 18" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001">
+      <failure>
+        <expected>18
+</expected>
+        <actual>19
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               19       8      8       5             10                   |  18
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 9 Seat Num: 9 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 17" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001">
+      <failure>
+        <expected>17
+</expected>
+        <actual>20
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               20       9      9       5             10                   |  17
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 10 Seat Num: 10 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 15" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001">
+      <failure>
+        <expected>15
+</expected>
+        <actual>21
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               21       10     10      5             10                   |  15
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 1 Seat Num: 1 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 16" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001">
+      <failure>
+        <expected>16
+</expected>
+        <actual>3
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               3        1      1       5             10                   |  16
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 2 Seat Num: 2 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 17" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001">
+      <failure>
+        <expected>17
+</expected>
+        <actual>6
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               6        2      2       5             10                   |  17
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 3 Seat Num: 3 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 18" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001">
+      <failure>
+        <expected>18
+</expected>
+        <actual>9
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               9        3      3       5             10                   |  18
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 4 Seat Num: 4 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 19" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001">
+      <failure>
+        <expected>19
+</expected>
+        <actual>12
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               12       4      4       5             10                   |  19
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 5 Seat Num: 5 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 19" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001">
+      <failure>
+        <expected>19
+</expected>
+        <actual>15
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               15       5      5       5             10                   |  19
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 6 Seat Num: 6 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 18" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001">
+      <failure>
+        <expected>18
+</expected>
+        <actual>17
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               17       6      6       5             10                   |  18
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 7 Seat Num: 7 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 17" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001">
+      <failure>
+        <expected>17
+</expected>
+        <actual>18
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               18       7      7       5             10                   |  17
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 8 Seat Num: 8 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 16" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.002">
+      <failure>
+        <expected>16
+</expected>
+        <actual>19
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               19       8      8       5             10                   |  16
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 9 Seat Num: 9 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 15" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.002">
+      <failure>
+        <expected>15
+</expected>
+        <actual>20
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               20       9      9       5             10                   |  15
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 10 Seat Num: 10 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 13" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001">
+      <failure>
+        <expected>13
+</expected>
+        <actual>21
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               21       10     10      5             10                   |  13
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 1 Seat Num: 1 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 14" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.002">
+      <failure>
+        <expected>14
+</expected>
+        <actual>3
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               3        1      1       5             10                   |  14
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 2 Seat Num: 2 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 15" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.003">
+      <failure>
+        <expected>15
+</expected>
+        <actual>6
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               6        2      2       5             10                   |  15
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 3 Seat Num: 3 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 16" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.002">
+      <failure>
+        <expected>16
+</expected>
+        <actual>9
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               9        3      3       5             10                   |  16
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 4 Seat Num: 4 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 17" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.002">
+      <failure>
+        <expected>17
+</expected>
+        <actual>12
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               12       4      4       5             10                   |  17
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 5 Seat Num: 5 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 17" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.005">
+      <failure>
+        <expected>17
+</expected>
+        <actual>15
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               15       5      5       5             10                   |  17
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 6 Seat Num: 6 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 16" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001">
+      <failure>
+        <expected>16
+</expected>
+        <actual>17
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               17       6      6       5             10                   |  16
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 7 Seat Num: 7 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 15" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001">
+      <failure>
+        <expected>15
+</expected>
+        <actual>18
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               18       7      7       5             10                   |  15
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 8 Seat Num: 8 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 14" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001">
+      <failure>
+        <expected>14
+</expected>
+        <actual>19
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               19       8      8       5             10                   |  14
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 9 Seat Num: 9 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 13" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.002">
+      <failure>
+        <expected>13
+</expected>
+        <actual>20
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               20       9      9       5             10                   |  13
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 10 Seat Num: 10 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 11" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001">
+      <failure>
+        <expected>11
+</expected>
+        <actual>21
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               21       10     10      5             10                   |  11
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 1 Seat Num: 1 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 12" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.002">
+      <failure>
+        <expected>12
+</expected>
+        <actual>3
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               3        1      1       5             10                   |  12
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 2 Seat Num: 2 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 13" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.002">
+      <failure>
+        <expected>13
+</expected>
+        <actual>6
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               6        2      2       5             10                   |  13
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 3 Seat Num: 3 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 14" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.002">
+      <failure>
+        <expected>14
+</expected>
+        <actual>9
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               9        3      3       5             10                   |  14
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 4 Seat Num: 4 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 15" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001">
+      <failure>
+        <expected>15
+</expected>
+        <actual>12
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               12       4      4       5             10                   |  15
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 5 Seat Num: 5 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 15" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.0"/>
+    <testcase name="Row Num: 6 Seat Num: 6 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 14" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.003">
+      <failure>
+        <expected>14
+</expected>
+        <actual>17
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               17       6      6       5             10                   |  14
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 7 Seat Num: 7 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 13" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.004">
+      <failure>
+        <expected>13
+</expected>
+        <actual>18
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               18       7      7       5             10                   |  13
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 8 Seat Num: 8 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 12" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.002">
+      <failure>
+        <expected>12
+</expected>
+        <actual>19
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               19       8      8       5             10                   |  12
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 9 Seat Num: 9 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 11" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.002">
+      <failure>
+        <expected>11
+</expected>
+        <actual>20
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               20       9      9       5             10                   |  11
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 10 Seat Num: 10 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 9" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.002">
+      <failure>
+        <expected>9
+</expected>
+        <actual>21
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               21       10     10      5             10                   |  9
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 1 Seat Num: 1 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 10" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.004">
+      <failure>
+        <expected>10
+</expected>
+        <actual>3
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               3        1      1       5             10                   |  10
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 2 Seat Num: 2 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 11" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.002">
+      <failure>
+        <expected>11
+</expected>
+        <actual>6
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               6        2      2       5             10                   |  11
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 3 Seat Num: 3 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 12" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.004">
+      <failure>
+        <expected>12
+</expected>
+        <actual>9
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               9        3      3       5             10                   |  12
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 4 Seat Num: 4 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 13" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.003">
+      <failure>
+        <expected>13
+</expected>
+        <actual>12
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               12       4      4       5             10                   |  13
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 5 Seat Num: 5 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 13" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.002">
+      <failure>
+        <expected>13
+</expected>
+        <actual>15
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               15       5      5       5             10                   |  13
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 6 Seat Num: 6 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 12" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001">
+      <failure>
+        <expected>12
+</expected>
+        <actual>17
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               17       6      6       5             10                   |  12
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 7 Seat Num: 7 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 11" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001">
+      <failure>
+        <expected>11
+</expected>
+        <actual>18
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               18       7      7       5             10                   |  11
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 8 Seat Num: 8 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 10" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.002">
+      <failure>
+        <expected>10
+</expected>
+        <actual>19
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               19       8      8       5             10                   |  10
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 9 Seat Num: 9 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 9" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001">
+      <failure>
+        <expected>9
+</expected>
+        <actual>20
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               20       9      9       5             10                   |  9
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 10 Seat Num: 10 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 7" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001">
+      <failure>
+        <expected>7
+</expected>
+        <actual>21
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               21       10     10      5             10                   |  7
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 1 Seat Num: 1 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 8" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001">
+      <failure>
+        <expected>8
+</expected>
+        <actual>3
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               3        1      1       5             10                   |  8
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 2 Seat Num: 2 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 9" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.002">
+      <failure>
+        <expected>9
+</expected>
+        <actual>6
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               6        2      2       5             10                   |  9
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 3 Seat Num: 3 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 10" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001">
+      <failure>
+        <expected>10
+</expected>
+        <actual>9
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               9        3      3       5             10                   |  10
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 4 Seat Num: 4 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 11" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.002">
+      <failure>
+        <expected>11
+</expected>
+        <actual>12
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               12       4      4       5             10                   |  11
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 5 Seat Num: 5 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 11" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001">
+      <failure>
+        <expected>11
+</expected>
+        <actual>15
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               15       5      5       5             10                   |  11
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 6 Seat Num: 6 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 10" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001">
+      <failure>
+        <expected>10
+</expected>
+        <actual>17
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               17       6      6       5             10                   |  10
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 7 Seat Num: 7 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 9" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.002">
+      <failure>
+        <expected>9
+</expected>
+        <actual>18
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               18       7      7       5             10                   |  9
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 8 Seat Num: 8 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 8" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.002">
+      <failure>
+        <expected>8
+</expected>
+        <actual>19
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               19       8      8       5             10                   |  8
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 9 Seat Num: 9 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 7" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001">
+      <failure>
+        <expected>7
+</expected>
+        <actual>20
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               20       9      9       5             10                   |  7
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 10 Seat Num: 10 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 5" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001">
+      <failure>
+        <expected>5
+</expected>
+        <actual>21
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               21       10     10      5             10                   |  5
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 1 Seat Num: 1 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 6" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.002">
+      <failure>
+        <expected>6
+</expected>
+        <actual>3
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               3        1      1       5             10                   |  6
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 2 Seat Num: 2 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 7" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.002">
+      <failure>
+        <expected>7
+</expected>
+        <actual>6
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               6        2      2       5             10                   |  7
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 3 Seat Num: 3 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 8" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.003">
+      <failure>
+        <expected>8
+</expected>
+        <actual>9
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               9        3      3       5             10                   |  8
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 4 Seat Num: 4 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 9" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.002">
+      <failure>
+        <expected>9
+</expected>
+        <actual>12
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               12       4      4       5             10                   |  9
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 5 Seat Num: 5 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 9" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.002">
+      <failure>
+        <expected>9
+</expected>
+        <actual>15
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               15       5      5       5             10                   |  9
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 6 Seat Num: 6 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 8" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.002">
+      <failure>
+        <expected>8
+</expected>
+        <actual>17
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               17       6      6       5             10                   |  8
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 7 Seat Num: 7 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 7" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.002">
+      <failure>
+        <expected>7
+</expected>
+        <actual>18
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               18       7      7       5             10                   |  7
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 8 Seat Num: 8 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 6" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.002">
+      <failure>
+        <expected>6
+</expected>
+        <actual>19
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               19       8      8       5             10                   |  6
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 9 Seat Num: 9 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 5" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.002">
+      <failure>
+        <expected>5
+</expected>
+        <actual>20
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               20       9      9       5             10                   |  5
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 10 Seat Num: 10 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 3" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.002">
+      <failure>
+        <expected>3
+</expected>
+        <actual>21
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               21       10     10      5             10                   |  3
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 1 Seat Num: 1 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 4" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.003">
+      <failure>
+        <expected>4
+</expected>
+        <actual>3
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               3        1      1       5             10                   |  4
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 2 Seat Num: 2 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 5" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.002">
+      <failure>
+        <expected>5
+</expected>
+        <actual>6
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               6        2      2       5             10                   |  5
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 3 Seat Num: 3 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 6" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.002">
+      <failure>
+        <expected>6
+</expected>
+        <actual>9
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               9        3      3       5             10                   |  6
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 4 Seat Num: 4 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 7" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.002">
+      <failure>
+        <expected>7
+</expected>
+        <actual>12
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               12       4      4       5             10                   |  7
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 5 Seat Num: 5 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 7" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.003">
+      <failure>
+        <expected>7
+</expected>
+        <actual>15
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               15       5      5       5             10                   |  7
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 6 Seat Num: 6 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 6" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001">
+      <failure>
+        <expected>6
+</expected>
+        <actual>17
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               17       6      6       5             10                   |  6
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 7 Seat Num: 7 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 5" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001">
+      <failure>
+        <expected>5
+</expected>
+        <actual>18
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               18       7      7       5             10                   |  5
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 8 Seat Num: 8 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 4" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001">
+      <failure>
+        <expected>4
+</expected>
+        <actual>19
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               19       8      8       5             10                   |  4
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 9 Seat Num: 9 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 3" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001">
+      <failure>
+        <expected>3
+</expected>
+        <actual>20
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               20       9      9       5             10                   |  3
+com.walmart.servcie.TicketServiceWalmartImpl@3daa422a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="test getScore method" classname="com.walmart.service.TicketServiceWalmartImplSpec">
+      <error>org.spockframework.runtime.SpockExecutionException: Data provider for variable 'middleSeatNum' has fewer values than previous data provider(s)&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:38)&#13;
+&#13;
+</error>
+    </testcase>
+  </testsuite>
+</testrun>

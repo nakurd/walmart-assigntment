@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Rerun com.walmart.service.TicketServiceWalmartImplSpec.test findAndHoldSeats where request can be handled" project="ticket-service" tests="1" started="1" failures="1" errors="0" ignored="0">
+  <testcase name="test findAndHoldSeats where request can be handled" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.349">
+    <failure>Condition not satisfied:
+
+s1.getSeats().contains(seats.iterator().next())
+|  |          |        |     |          |
+|  |          false    |     |          Seat [row=1, number=5, score=25, status=AVAILABLE, direction=LEFT]
+|  |                   |     java.util.HashMap$KeyIterator@7c729a55
+|  |                   [Seat [row=1, number=5, score=25, status=AVAILABLE, direction=LEFT], Seat [row=1, number=4, score=24, status=AVAILABLE, direction=LEFT], Seat [row=1, number=2, score=22, status=AVAILABLE, direction=LEFT], Seat [row=1, number=3, score=23, status=AVAILABLE, direction=LEFT]]
+|  [Seat [row=1, number=2, score=22, status=PENDING, direction=LEFT], Seat [row=1, number=3, score=23, status=PENDING, direction=LEFT], Seat [row=1, number=5, score=25, status=PENDING, direction=LEFT], Seat [row=1, number=4, score=24, status=PENDING, direction=LEFT]]
+SeatHold [id=857, message=Seats are hold for five minutes, seats=[Seat [row=1, number=2, score=22, status=PENDING, direction=LEFT], Seat [row=1, number=3, score=23, status=PENDING, direction=LEFT], Seat [row=1, number=5, score=25, status=PENDING, direction=LEFT], Seat [row=1, number=4, score=24, status=PENDING, direction=LEFT]], bookingEmail=aa1@aa.com, reservedTime=2017-08-03T17:21:45.966]
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test findAndHoldSeats where request can be handled(TicketServiceWalmartImplSpec.groovy:136)&#13;
+&#13;
+</failure>
+  </testcase>
+</testrun>

@@ -1,0 +1,14 @@
+package com.walmart.service
+
+import com.walmart.servcie.TicketServiceWalmartImpl
+import spock.lang.Shared
+import spock.lang.Specification
+
+class TicketServiceWalmartImplSpec extends Specification{
+	 
+	@Shared
+	private TicketServiceWalmartImpl objectUnderTest = new TicketServiceWalmartImpl();
+	
+	
+	
+}

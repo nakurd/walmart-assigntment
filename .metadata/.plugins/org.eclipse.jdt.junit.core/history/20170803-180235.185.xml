@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Rerun com.walmart.service.TicketServiceWalmartImplSpec.test findAndHoldSeats where request cannot be handled" project="ticket-service" tests="1" started="1" failures="1" errors="0" ignored="0">
+  <testcase name="test findAndHoldSeats where request cannot be handled" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="70.443">
+    <failure>
+      <expected>0
+</expected>
+      <actual>935
+</actual>Condition not satisfied:
+
+s1.getId() == 0
+|  |       |
+|  935     false
+SeatHold [id=935, message=Seats are hold for five minutes, seats=[Seat [row=3, number=3, score=19, status=PENDING, direction=LEFT], Seat [row=3, number=5, score=21, status=PENDING, direction=LEFT], Seat [row=3, number=4, score=20, status=PENDING, direction=LEFT], Seat [row=3, number=2, score=18, status=PENDING, direction=LEFT]], bookingEmail=aa3@aa.com, reservedTime=2017-08-03T18:02:46.867]
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test findAndHoldSeats where request cannot be handled(TicketServiceWalmartImplSpec.groovy:150)&#13;
+&#13;
+</failure>
+  </testcase>
+</testrun>

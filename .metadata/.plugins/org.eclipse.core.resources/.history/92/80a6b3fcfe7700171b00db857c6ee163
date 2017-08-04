@@ -1,0 +1,25 @@
+package com.walmart.servcie;
+
+import com.walmart.model.SeatHold;
+
+public class TicketServiceWalmartImpl implements TicketService {
+
+	@Override
+	public int numSeatsAvailable() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public SeatHold findAndHoldSeats(int numSeats, String customerEmail) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String reserveSeats(int seatHoldId, String customerEmail) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

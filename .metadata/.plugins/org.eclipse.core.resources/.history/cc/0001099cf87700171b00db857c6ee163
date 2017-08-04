@@ -1,0 +1,67 @@
+package com.walmart.model;
+
+import java.util.LinkedList;
+import java.util.List;
+
+public class Venu {
+	private String name = "WALMART";  //could read these from property file
+	private int numberOfRows = 30;
+	private int seatsPerRow = 30;
+	private int holdTime = 300;
+	private int requestLimit = 4;
+	private List<Seat> seats = new LinkedList<>();
+	
+	public void initalizeVenu(){
+		for(int rows = 1; rows < numberOfRows + 1; rows++){
+			for(int rowSeats = 1; rowSeats < seatsPerRow + 1; rowSeats++){
+				int score = getScore(rows, rowSeats);
+				seats.add(new Seat(rows,rowSeats,score));
+			}
+		}
+	}
+	
+	private int getScore(int row, int seat){
+		int score = 0;
+		
+		return score;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getNumberOfRows() {
+		return numberOfRows;
+	}
+	public void setNumberOfRows(int numberOfRows) {
+		this.numberOfRows = numberOfRows;
+	}
+	public int getSeatsPerRow() {
+		return seatsPerRow;
+	}
+	public void setSeatsPerRow(int seatsPerRow) {
+		this.seatsPerRow = seatsPerRow;
+	}
+	public int getHoldTime() {
+		return holdTime;
+	}
+	public void setHoldTime(int holdTime) {
+		this.holdTime = holdTime;
+	}
+	public int getRequestLimit() {
+		return requestLimit;
+	}
+	public void setRequestLimit(int requestLimit) {
+		this.requestLimit = requestLimit;
+	}
+	
+	@Override
+	public String toString() {
+		return "Venu [name=" + name + ", numberOfRows=" + numberOfRows
+				+ ", seatsPerRow=" + seatsPerRow + ", holdTime=" + holdTime
+				+ ", requestLimit=" + requestLimit + "]";
+	}
+	
+}

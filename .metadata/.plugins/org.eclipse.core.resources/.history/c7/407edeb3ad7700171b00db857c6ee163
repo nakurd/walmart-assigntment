@@ -1,0 +1,5 @@
+package com.walmart.model;
+
+public class Seat {
+
+}

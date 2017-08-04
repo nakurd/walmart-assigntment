@@ -1,0 +1,78 @@
+package com.walmart.servcie;
+
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
+
+import com.walmart.model.Seat;
+import com.walmart.model.SeatHold;
+import com.walmart.model.Venue;
+
+public class TicketServiceWalmartImpl implements TicketService {
+	
+	private Map<Integer,List<Seat>> pendingReservations = new HashMap<>();
+	
+	private List<Seat> seats = new LinkedList<>();
+	
+	private void initalizeVenue(Venue venue){
+		for(int rows = venue.getNumberOfRows(); rows > 0; rows--){
+			for(int rowSeats = 1; rowSeats < venue.getSeatsPerRow() + 1; rowSeats++){
+				int score = getScore(rows, rowSeats);
+				seats.add(new Seat(rows,rowSeats,score));
+			}
+		}
+	}
+	
+	/**
+	 * Calculate score for a seat
+	 *
+	 * @param row the number of row in the venue
+	 * @param seat the seat number of a row
+	 * @param middleSeatNumber the middle seat number of a row
+	 * @param numberOfSeatsPerRow the total number of seats of a row
+	 * @return a score for a seat as follow:
+	 * row number + seat number for seats from 1 to middle seat and
+	 * row number + total number of seats in row - seat number + 1;
+	 * the two highest scoring seats for each row are the two middle seats
+	 * and each seats away from middle seat will have a score one less per seat 
+	 * away from middle.     
+	 */
+	private int getScore(int row, int seat, int middleSeatNumber, int numberOfSeatsPerRow){
+		int score = 0;
+		int seatScore = seat >  middleSeatNumber ? numberOfSeatsPerRow - seat + 1: seat;
+		score = row + seatScore;
+		return score;
+	}
+
+	@Override
+	public int numSeatsAvailable() {
+		return 0;
+	}
+
+	@Override
+	public SeatHold findAndHoldSeats(int numSeats, String customerEmail) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String reserveSeats(int seatHoldId, String customerEmail) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	private removeAllTimedOut
+	public void printLayout(){
+		for(int i = 0; i < numberOfRows * numberOfRows; i++){
+			if(i % numberOfRows == 0) System.out.println();
+			System.out.print(seats.get(i).getScore() + ",");
+		}
+	}
+	
+	public static void main(String [] args){
+		Venue v = new Venue();
+		v.initalizeVenu();
+		v.printLayout();
+	}
+}

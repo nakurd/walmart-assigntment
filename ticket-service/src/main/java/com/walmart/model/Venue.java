@@ -1,0 +1,72 @@
+package com.walmart.model;
+
+
+/**
+ * @author atp1nxa
+ *
+ */
+public class Venue {
+	
+	private String name;  
+	private int numberOfRows = 30;
+	private int seatsPerRow = 30;
+	private int holdTime = 300;
+	private int requestLimit = 4;
+	private int middleSeat = seatsPerRow/2;
+	
+	
+	
+	public Venue(String name, int numberOfRows, int seatsPerRow, int holdTime,
+			int requestLimit) {
+		super();
+		this.name = name;
+		this.numberOfRows = numberOfRows;
+		this.seatsPerRow = seatsPerRow;
+		this.holdTime = holdTime;
+		this.requestLimit = requestLimit;
+		middleSeat = seatsPerRow/2;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getNumberOfRows() {
+		return numberOfRows;
+	}
+	public void setNumberOfRows(int numberOfRows) {
+		this.numberOfRows = numberOfRows;
+	}
+	public int getSeatsPerRow() {
+		return seatsPerRow;
+	}
+	public void setSeatsPerRow(int seatsPerRow) {
+		this.seatsPerRow = seatsPerRow;
+	}
+	public int getHoldTime() {
+		return holdTime;
+	}
+	public void setHoldTime(int holdTime) {
+		this.holdTime = holdTime;
+	}
+	public int getRequestLimit() {
+		return requestLimit;
+	}
+	public void setRequestLimit(int requestLimit) {
+		this.requestLimit = requestLimit;
+	}
+	
+	
+	@Override
+	public String toString() {
+		return "Venu [name=" + name + ", numberOfRows=" + numberOfRows
+				+ ", seatsPerRow=" + seatsPerRow + ", holdTime=" + holdTime
+				+ ", requestLimit=" + requestLimit + "]";
+	}
+	public int getMiddleSeat() {
+		return middleSeat;
+	}
+	
+}

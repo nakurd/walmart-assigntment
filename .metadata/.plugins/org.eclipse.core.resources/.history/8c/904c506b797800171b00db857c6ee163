@@ -1,0 +1,47 @@
+package com.walmart.service
+
+import com.walmart.servcie.TicketServiceWalmartImpl
+import spock.lang.Shared
+import spock.lang.Specification
+import spock.lang.Unroll
+
+class TicketServiceWalmartImplSpec extends Specification{
+	 
+	@Shared
+	private TicketServiceWalmartImpl objectUnderTest = new TicketServiceWalmartImpl();
+	
+	public void setupSpec(){
+		objectUnderTest = new TicketServiceWalmartImpl();
+	}
+	
+	@Unroll
+	public void "test that venue is initalized correctly"(){
+		expect:
+			objectUnderTest != null
+			objectUnderTest.pendingReservations.size() == 0
+			objectUnderTest.seats.size() == objectUnderTest.walmart.getNumberOfRows() * objectUnderTest.walmart.getSeatsPerRow()
+			objectUnderTest.walmart.getMiddleSeat() == objectUnderTest.walmart.getSeatsPerRow()/2
+			objectUnderTest.numSeatsAvailable() == objectUnderTest.seats.size()
+	}
+
+
+	//Test score for 10 * 10 venue
+	@Unroll("Row Num: #rowNum Seat Num: #seatNum MiddleSeat Num: #middleSeatNum Numer Of Seats Per Row: #numberOfSeatsPerRow Score: #score")
+	public void "test getScore method"(){
+		expect:
+			objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+		where:
+			rowNum << [0,1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,6,7,8,9,10,
+					   1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,6,7,8,9,10]
+			seatNum << [0,1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,6,7,8,9,10,
+					   1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,6,7,8,9,10]
+			middleSeatNum << [5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+							  5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5]
+			numberOfSeatsPerRow << [10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,
+									10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,
+									10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10]
+			score << [2, 5]
+			
+	}
+	
+}

@@ -1,0 +1,7 @@
+package com.walmart.model;
+
+public class Seat {
+	int row;
+	int number;
+	int score;
+}

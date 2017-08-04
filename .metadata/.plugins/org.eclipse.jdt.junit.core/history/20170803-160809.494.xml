@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Rerun com.walmart.service.TicketServiceWalmartImplSpec.test findAndHoldSeats where request can be handled" project="ticket-service" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testcase name="test findAndHoldSeats where request can be handled" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.188">
+    <error>groovy.lang.GroovyRuntimeException: Could not find matching constructor for: com.walmart.model.Seat()&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.createSeat(TicketServiceWalmartImplSpec.groovy:141)&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test findAndHoldSeats where request can be handled(TicketServiceWalmartImplSpec.groovy:128)&#13;
+&#13;
+</error>
+  </testcase>
+</testrun>

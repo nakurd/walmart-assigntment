@@ -1,0 +1,33 @@
+package com.walmart.model;
+
+public class Seat {
+	int row;
+	int number;
+	int score;
+	SeatStatus status;
+	
+	public int getRow() {
+		return row;
+	}
+	public void setRow(int row) {
+		this.row = row;
+	}
+	public int getNumber() {
+		return number;
+	}
+	public void setNumber(int number) {
+		this.number = number;
+	}
+	public int getScore() {
+		return score;
+	}
+	public void setScore(int score) {
+		this.score = score;
+	}
+	public SeatStatus getStatus() {
+		return status;
+	}
+	public void setStatus(SeatStatus status) {
+		this.status = status;
+	}
+}

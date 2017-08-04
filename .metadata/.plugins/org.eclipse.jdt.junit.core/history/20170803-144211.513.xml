@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TicketServiceWalmartImplSpec" project="ticket-service" tests="1" started="102" failures="4" errors="1" ignored="0">
+  <testsuite name="com.walmart.service.TicketServiceWalmartImplSpec" time="0.095">
+    <testcase name="test that venue is initalized correctly" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.095"/>
+  </testsuite>
+  <testsuite name="Unrooted Tests" time="0.001">
+    <testcase name="Row Num: 0 Seat Num: 0 MiddleSeat Num: 0 Numer Of Seats Per Row: 0 Score: 0" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001"/>
+    <testcase name="Row Num: 10 Seat Num: 1 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 21" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.0"/>
+    <testcase name="Row Num: 10 Seat Num: 2 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 22" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001"/>
+    <testcase name="Row Num: 10 Seat Num: 3 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 23" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.0"/>
+    <testcase name="Row Num: 10 Seat Num: 4 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 24" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001"/>
+    <testcase name="Row Num: 10 Seat Num: 5 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 25" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.0"/>
+    <testcase name="Row Num: 10 Seat Num: 6 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 25" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.0"/>
+    <testcase name="Row Num: 10 Seat Num: 7 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 24" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001"/>
+    <testcase name="Row Num: 10 Seat Num: 8 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 23" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001"/>
+    <testcase name="Row Num: 10 Seat Num: 9 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 22" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.0"/>
+    <testcase name="Row Num: 10 Seat Num: 10 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 21" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.0"/>
+    <testcase name="Row Num: 9 Seat Num: 1 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 19" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.0"/>
+    <testcase name="Row Num: 9 Seat Num: 2 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 20" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001"/>
+    <testcase name="Row Num: 9 Seat Num: 3 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 21" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.0"/>
+    <testcase name="Row Num: 9 Seat Num: 4 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 22" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.002"/>
+    <testcase name="Row Num: 9 Seat Num: 5 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 23" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001"/>
+    <testcase name="Row Num: 9 Seat Num: 6 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 23" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001"/>
+    <testcase name="Row Num: 9 Seat Num: 7 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 22" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.0"/>
+    <testcase name="Row Num: 9 Seat Num: 8 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 21" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.0"/>
+    <testcase name="Row Num: 9 Seat Num: 9 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 20" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001"/>
+    <testcase name="Row Num: 9 Seat Num: 10 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 19" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.0"/>
+    <testcase name="Row Num: 8 Seat Num: 1 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 17" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.0"/>
+    <testcase name="Row Num: 8 Seat Num: 2 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 18" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001"/>
+    <testcase name="Row Num: 8 Seat Num: 3 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 19" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.0"/>
+    <testcase name="Row Num: 8 Seat Num: 4 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 20" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001"/>
+    <testcase name="Row Num: 8 Seat Num: 5 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 21" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.0"/>
+    <testcase name="Row Num: 8 Seat Num: 6 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 21" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.0"/>
+    <testcase name="Row Num: 8 Seat Num: 7 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 20" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001"/>
+    <testcase name="Row Num: 8 Seat Num: 8 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 19" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.0"/>
+    <testcase name="Row Num: 8 Seat Num: 9 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 18" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001"/>
+    <testcase name="Row Num: 8 Seat Num: 10 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 17" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.0"/>
+    <testcase name="Row Num: 7 Seat Num: 1 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 15" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.0"/>
+    <testcase name="Row Num: 7 Seat Num: 2 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 16" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.0"/>
+    <testcase name="Row Num: 7 Seat Num: 3 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 17" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001"/>
+    <testcase name="Row Num: 7 Seat Num: 4 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 18" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.0"/>
+    <testcase name="Row Num: 7 Seat Num: 5 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 19" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.0"/>
+    <testcase name="Row Num: 7 Seat Num: 6 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 19" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001"/>
+    <testcase name="Row Num: 7 Seat Num: 7 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 18" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.0"/>
+    <testcase name="Row Num: 7 Seat Num: 8 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 17" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.0"/>
+    <testcase name="Row Num: 7 Seat Num: 9 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 16" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.0"/>
+    <testcase name="Row Num: 7 Seat Num: 10 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 15" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001"/>
+    <testcase name="Row Num: 6 Seat Num: 1 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 13" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.0"/>
+    <testcase name="Row Num: 6 Seat Num: 2 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 14" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.0"/>
+    <testcase name="Row Num: 6 Seat Num: 3 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 15" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.0"/>
+    <testcase name="Row Num: 6 Seat Num: 4 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 16" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001"/>
+    <testcase name="Row Num: 6 Seat Num: 5 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 17" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.0"/>
+    <testcase name="Row Num: 6 Seat Num: 6 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 17" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001"/>
+    <testcase name="Row Num: 6 Seat Num: 7 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 16" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.0"/>
+    <testcase name="Row Num: 6 Seat Num: 8 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 15" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.0"/>
+    <testcase name="Row Num: 6 Seat Num: 9 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 14" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.0"/>
+    <testcase name="Row Num: 6 Seat Num: 10 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 13" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.0"/>
+    <testcase name="Row Num: 5 Seat Num: 1 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 11" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001"/>
+    <testcase name="Row Num: 5 Seat Num: 2 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 12" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001"/>
+    <testcase name="Row Num: 5 Seat Num: 3 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 13" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001"/>
+    <testcase name="Row Num: 5 Seat Num: 4 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 14" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001"/>
+    <testcase name="Row Num: 5 Seat Num: 5 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 15" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.0"/>
+    <testcase name="Row Num: 5 Seat Num: 6 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 15" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001"/>
+    <testcase name="Row Num: 5 Seat Num: 7 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 14" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.002"/>
+    <testcase name="Row Num: 5 Seat Num: 8 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 13" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.003"/>
+    <testcase name="Row Num: 5 Seat Num: 9 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 12" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.0"/>
+    <testcase name="Row Num: 5 Seat Num: 10 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 11" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001"/>
+    <testcase name="Row Num: 5 Seat Num: 1 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 9" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.117">
+      <failure>
+        <expected>9
+</expected>
+        <actual>11
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               11       5      1       5             10                   |  9
+com.walmart.servcie.TicketServiceWalmartImpl@28eaa59a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 4 Seat Num: 2 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 10" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.0"/>
+    <testcase name="Row Num: 4 Seat Num: 3 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 11" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.0"/>
+    <testcase name="Row Num: 4 Seat Num: 4 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 12" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.0"/>
+    <testcase name="Row Num: 4 Seat Num: 5 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 13" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001"/>
+    <testcase name="Row Num: 4 Seat Num: 6 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 13" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.002"/>
+    <testcase name="Row Num: 4 Seat Num: 7 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 12" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.0"/>
+    <testcase name="Row Num: 4 Seat Num: 8 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 11" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.0"/>
+    <testcase name="Row Num: 4 Seat Num: 9 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 10" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001"/>
+    <testcase name="Row Num: 4 Seat Num: 10 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 9" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.0"/>
+    <testcase name="Row Num: 4 Seat Num: 1 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 7" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.002">
+      <failure>
+        <expected>7
+</expected>
+        <actual>9
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               9        4      1       5             10                   |  7
+com.walmart.servcie.TicketServiceWalmartImpl@28eaa59a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 3 Seat Num: 2 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 8" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001"/>
+    <testcase name="Row Num: 3 Seat Num: 3 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 9" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001"/>
+    <testcase name="Row Num: 3 Seat Num: 4 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 10" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.002"/>
+    <testcase name="Row Num: 3 Seat Num: 5 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 11" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.005"/>
+    <testcase name="Row Num: 3 Seat Num: 6 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 11" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001"/>
+    <testcase name="Row Num: 3 Seat Num: 7 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 10" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001"/>
+    <testcase name="Row Num: 3 Seat Num: 8 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 9" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.0"/>
+    <testcase name="Row Num: 3 Seat Num: 9 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 8" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001"/>
+    <testcase name="Row Num: 3 Seat Num: 10 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 7" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.0"/>
+    <testcase name="Row Num: 3 Seat Num: 1 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 5" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.002">
+      <failure>
+        <expected>5
+</expected>
+        <actual>7
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               7        3      1       5             10                   |  5
+com.walmart.servcie.TicketServiceWalmartImpl@28eaa59a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 2 Seat Num: 2 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 6" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.0"/>
+    <testcase name="Row Num: 2 Seat Num: 3 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 7" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001"/>
+    <testcase name="Row Num: 2 Seat Num: 4 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 8" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.0"/>
+    <testcase name="Row Num: 2 Seat Num: 5 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 9" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.0"/>
+    <testcase name="Row Num: 2 Seat Num: 6 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 9" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001"/>
+    <testcase name="Row Num: 2 Seat Num: 7 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 8" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.0"/>
+    <testcase name="Row Num: 2 Seat Num: 8 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 7" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001"/>
+    <testcase name="Row Num: 2 Seat Num: 9 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 6" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001"/>
+    <testcase name="Row Num: 2 Seat Num: 10 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 5" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.0"/>
+    <testcase name="Row Num: 2 Seat Num: 1 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 3" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.003">
+      <failure>
+        <expected>3
+</expected>
+        <actual>5
+</actual>Condition not satisfied:
+
+objectUnderTest.getScore(rowNum,seatNum,middleSeatNum,numberOfSeatsPerRow) == score
+|               |        |      |       |             |                    |  |
+|               5        2      1       5             10                   |  3
+com.walmart.servcie.TicketServiceWalmartImpl@28eaa59a                      false
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:32)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="Row Num: 1 Seat Num: 2 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 4" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.0"/>
+    <testcase name="Row Num: 1 Seat Num: 3 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 5" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.0"/>
+    <testcase name="Row Num: 1 Seat Num: 4 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 6" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.0"/>
+    <testcase name="Row Num: 1 Seat Num: 5 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 7" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001"/>
+    <testcase name="Row Num: 1 Seat Num: 6 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 7" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001"/>
+    <testcase name="Row Num: 1 Seat Num: 7 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 6" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.0"/>
+    <testcase name="Row Num: 1 Seat Num: 8 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 5" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001"/>
+    <testcase name="Row Num: 1 Seat Num: 9 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 4" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.0"/>
+    <testcase name="Row Num: 1 Seat Num: 10 MiddleSeat Num: 5 Numer Of Seats Per Row: 10 Score: 3" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001"/>
+    <testcase name="test getScore method" classname="com.walmart.service.TicketServiceWalmartImplSpec">
+      <error>org.spockframework.runtime.SpockExecutionException: Data provider for variable 'seatNum' has fewer values than previous data provider(s)&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test getScore method(TicketServiceWalmartImplSpec.groovy:36)&#13;
+&#13;
+</error>
+    </testcase>
+  </testsuite>
+</testrun>

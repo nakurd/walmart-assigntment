@@ -1,0 +1,172 @@
+package com.walmart.servcie;
+
+import static com.walmart.util.TicketServiceUtil.*;
+import static java.util.stream.Collectors.toList;
+
+import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Optional;
+import java.util.Properties;
+import java.util.Set;
+
+import com.walmart.model.RowDirection;
+import com.walmart.model.Seat;
+import com.walmart.model.SeatHold;
+import com.walmart.model.SeatStatus;
+import com.walmart.model.Venue;
+
+public class TicketServiceWalmartImpl implements TicketService {
+
+	private List<SeatHold> pendingReservations;
+	private List<Seat> seats;
+	private Venue walmart;
+
+	
+
+	public TicketServiceWalmartImpl() {
+		pendingReservations = new ArrayList<>();
+		seats = new LinkedList<>();
+		Properties props = loadVenueProperties();
+		walmart = new Venue("Walmart",Integer.parseInt(props.getProperty("numberOfRows", "30")),
+							Integer.parseInt(props.getProperty("seatsPerRow", "30")),
+							Integer.parseInt(props.getProperty("holdTime", "300")),
+							Integer.parseInt(props.getProperty("requestLimit", "4")));
+		initalizeVenue();
+	}
+
+
+	private void initalizeVenue(){
+		for(int rows = walmart.getNumberOfRows(); rows > 0; rows--){
+			for(int rowSeats = 1; rowSeats < walmart.getSeatsPerRow() + 1; rowSeats++){
+				int score = getScore(rows, rowSeats, walmart.getMiddleSeat(),walmart.getNumberOfRows());
+				RowDirection direction = rowSeats > walmart.getMiddleSeat() ? RowDirection.RIGHT:RowDirection.LEFT;
+				seats.add(new Seat(rows,rowSeats,score,direction));
+			}
+		}
+	}
+	
+	/**
+	 * Calculate score for a seat
+	 *
+	 * @param row the number of row in the venue
+	 * @param seat the seat number of a row
+	 * @param middleSeatNumber the middle seat number of a row
+	 * @param numberOfSeatsPerRow the total number of seats of a row
+	 * @return a score for a seat as follow:
+	 * row number * 2 + seat number for seats from 1 to middle seat and
+	 * row number * 2 + total number of seats in row - seat number + 1;
+	 * the two highest scoring seats for each row are the two middle seats
+	 * and each seats away from middle seat will have a score one less per seat 
+	 * away from middle.     
+	 */
+	private int getScore(int row, int seat, int middleSeatNumber, int numberOfSeatsPerRow){
+		int score = 0;
+		int seatScore = seat >  middleSeatNumber ? numberOfSeatsPerRow - seat + 1: seat;
+		score = row * 2 + seatScore;
+		return score;
+	}
+
+	@Override
+	public int numSeatsAvailable() {
+		removeAllTimedOut();
+		Long count = seats.stream().filter(seat -> seat.getStatus() == SeatStatus.AVAILABLE).count();
+		return count.intValue();
+	}
+
+	@Override
+	public SeatHold findAndHoldSeats(int numSeats, String customerEmail){
+		if(numSeats > walmart.getRequestLimit()){
+			return new SeatHold(0,SEAT_LIMIT,customerEmail);
+		}
+		
+		List<Seat> bestAvailableSeats = seats.stream()
+											 .filter(seat -> seat.getStatus() == SeatStatus.AVAILABLE)
+											 .collect(toList());
+		Optional<Seat> bestSeat = bestAvailableSeats.stream()
+										   .filter(seatCanFulfillReservation(numSeats,walmart.getSeatsPerRow()))
+										   .findFirst();
+		
+		if(bestSeat.isPresent()){
+			int index = seats.indexOf(bestSeat.get());
+			Set<Seat> pendingSeats = new HashSet<>();
+			if(bestSeat.get().getDirection() == RowDirection.RIGHT){
+				for(int i = 0; i < numSeats; i++){
+					seats.get(index+i).setStatus(SeatStatus.PENDING);
+					pendingSeats.add(seats.get(index+i));
+				}
+			}else{
+				for(int i = 0; i < numSeats; i++){
+					seats.get(index-i).setStatus(SeatStatus.PENDING);
+					pendingSeats.add(seats.get(index-i));
+				}
+			}
+			return new SeatHold(nextReservationId(),SEATS_ARE_PENDING,pendingSeats,customerEmail);
+		}else{
+			return new SeatHold(0,NO_SEATS_ON_SAME_ROW,customerEmail);
+		}
+	}
+
+	@Override
+	public String reserveSeats(int seatHoldId, String customerEmail) {
+		removeAllTimedOut();
+		Optional<SeatHold> pending = pendingReservations.stream()
+											   .filter(seatHold -> seatHold.getId() == seatHoldId)
+											   .filter(seatHold -> seatHold.getBookingEmail().equalsIgnoreCase(customerEmail))
+											   .findFirst();
+		if(pending.isPresent()){
+			pending.get().getSeats().stream()
+									.forEach(seat -> {
+										seats.remove(seat);
+									});
+			pendingReservations.remove(pending.get());
+		}else{
+			return INVALID_ID_OR_EXPIRED;
+		}
+		return nextConfirmationCode();
+	}
+	
+	
+	private void removeAllTimedOut(){
+		List<SeatHold> resvationsToRemove = pendingReservations.stream()
+															  .filter(seatHold -> seatHold.getReservedTime().plusSeconds(walmart.getHoldTime()).isBefore(LocalDateTime.now()))
+															  .collect(toList());
+		resvationsToRemove.stream()
+						   .flatMap(seatHold -> seatHold.getSeats().stream())
+						   .forEach(seat -> {
+							   seat.setStatus(SeatStatus.AVAILABLE);
+						   });
+		pendingReservations.removeAll(resvationsToRemove);
+	}
+	
+	
+	
+	
+	public void printLayout(){
+		for(int i = 0; i < 20 * 20; i++){
+			if(i % 20 == 0) System.out.println();
+			System.out.print(seats.get(i).getScore() + ",");
+		}
+	}
+	
+	public void printLayout2(){
+		for(int i = 0; i < 20 * 20; i++){
+			if(i % 20 == 0) System.out.println();
+			System.out.print(seats.get(i).getStatus().name().charAt(0) + ",");
+		}
+	}
+	
+	public static void main(String [] args){
+		TicketServiceWalmartImpl v = new TicketServiceWalmartImpl();
+		//v.printLayout();
+		
+		
+		System.out.println(v.numSeatsAvailable());
+		System.out.println(v.findAndHoldSeats(2,"aa").toString());
+		System.out.println(v.numSeatsAvailable());
+		v.printLayout2();
+		
+	}
+}

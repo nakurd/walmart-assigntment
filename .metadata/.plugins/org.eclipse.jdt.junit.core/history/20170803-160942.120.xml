@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Rerun com.walmart.service.TicketServiceWalmartImplSpec.test findAndHoldSeats where request can be handled" project="ticket-service" tests="1" started="1" failures="1" errors="0" ignored="0">
+  <testcase name="test findAndHoldSeats where request can be handled" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.329">
+    <failure>
+      <expected>Seat [row=1, number=2, score=45, status=AVAILABLE]
+Seat [row=1, number=3, score=45, status=AVAILABLE]
+Seat [row=1, number=4, score=44, status=AVAILABLE]
+Seat [row=1, number=5, score=45, status=AVAILABLE]
+</expected>
+      <actual>Seat [row=1, number=2, score=22, status=PENDING]
+Seat [row=1, number=3, score=23, status=PENDING]
+Seat [row=1, number=4, score=24, status=PENDING]
+Seat [row=1, number=5, score=25, status=PENDING]
+</actual>Condition not satisfied:
+
+s1.getSeats() == seats
+|  |          |  |
+|  |          |  [Seat [row=1, number=5, score=45, status=AVAILABLE], Seat [row=1, number=4, score=44, status=AVAILABLE], Seat [row=1, number=3, score=45, status=AVAILABLE], Seat [row=1, number=2, score=45, status=AVAILABLE]]
+|  |          false
+|  [Seat [row=1, number=2, score=22, status=PENDING], Seat [row=1, number=3, score=23, status=PENDING], Seat [row=1, number=5, score=25, status=PENDING], Seat [row=1, number=4, score=24, status=PENDING]]
+SeatHold [id=949, message=Seats are hold for five minutes, seats=[Seat [row=1, number=2, score=22, status=PENDING], Seat [row=1, number=3, score=23, status=PENDING], Seat [row=1, number=5, score=25, status=PENDING], Seat [row=1, number=4, score=24, status=PENDING]], bookingEmail=aa1@aa.com, reservedTime=2017-08-03T16:09:42.278]
+&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test findAndHoldSeats where request can be handled(TicketServiceWalmartImplSpec.groovy:135)&#13;
+&#13;
+</failure>
+  </testcase>
+</testrun>

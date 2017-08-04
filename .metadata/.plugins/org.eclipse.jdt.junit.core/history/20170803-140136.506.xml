@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TicketServiceWalmartImplSpec" project="ticket-service" tests="1" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="com.walmart.service.TicketServiceWalmartImplSpec" time="0.101">
+    <testcase name="test that venue is initalized correctly" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.101"/>
+  </testsuite>
+  <testsuite name="Unrooted Tests" time="0.001">
+    <testcase name="Row Num: 0 Seat Num: 0 MiddleSeat Num: 0 Numer Of Seats Per Row: 0 Score: score" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.001"/>
+  </testsuite>
+</testrun>

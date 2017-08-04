@@ -1,0 +1,5 @@
+numberOfRows=20
+seatsPerRow=20
+holdTime=300
+requestLimit=4
+

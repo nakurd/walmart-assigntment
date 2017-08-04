@@ -1,0 +1,5 @@
+package com.walmart.servcie;
+
+public interface TicketService {
+
+}

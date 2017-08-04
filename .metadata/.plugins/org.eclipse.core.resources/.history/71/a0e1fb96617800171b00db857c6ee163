@@ -1,0 +1,5 @@
+package com.walmart.util;
+
+public class TicketServiceUtil {
+
+}

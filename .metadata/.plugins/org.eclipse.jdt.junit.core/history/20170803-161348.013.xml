@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Rerun com.walmart.service.TicketServiceWalmartImplSpec.test findAndHoldSeats where request can be handled" project="ticket-service" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testcase name="test findAndHoldSeats where request can be handled" classname="com.walmart.service.TicketServiceWalmartImplSpec" time="0.235">
+    <error>groovy.lang.MissingMethodException: No signature of method: java.util.HashSet.getAt() is applicable for argument types: (java.lang.Integer) values: [0]
+Possible solutions: getAt(java.lang.String), getAt(java.lang.String), putAt(java.lang.String, java.lang.Object), wait(), grep(), grep()&#13;
+	at com.walmart.service.TicketServiceWalmartImplSpec.test findAndHoldSeats where request can be handled(TicketServiceWalmartImplSpec.groovy:136)&#13;
+&#13;
+</error>
+  </testcase>
+</testrun>
