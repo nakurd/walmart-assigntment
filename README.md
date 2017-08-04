@@ -37,7 +37,7 @@ Middle seats have the highest score for each row and moving away from middle sea
 
 
 TODOs
-Better field validations
-Put the score method in a class implementing an interface 
+Better field validations,
+Put the score method in a class implementing an interface,
 Synchronize part of the reserveSeat method 
 
